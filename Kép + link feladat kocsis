@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <title>KÉPLINK</title>
+</head>
+<body>
+
+<h1>Boholy Bálint</h1>
+<p>Kép + Link feladat</p>
+<a href="https://www.google.com/search?q=jdm+cars+nissan+gtr&tbm=isch&ved=2ahUKEwjOh9Xy9qPzAhXKCuwKHRtQCrgQ2-cCegQIABAA&oq=jdm+cars+nissa&gs_lcp=CgNpbWcQARgBMgQIABATMgQIABATMgQIABATMgQIABATMgQIABATMgQIABATMgQIABATMgQIABATMgQIABATMgQIABATOgUIABCABDoECAAQHlDDIliRNmDhP2gAcAB4AIABX4gBjASSAQE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=wjlUYc6eE8qVsAeboKnACw&bih=969&biw=1920&rlz=1C1GCEU_huHU972HU972#imgrc=jUOulvc1F2TChM">
+<img src="https://i.pinimg.com/originals/f9/19/ba/f919bab4600da17da09c9fdc80477648.jpg" alt="JDM car" title="JDM car" width="500" height="600">
+</a>
+
+</body>
+</html>
