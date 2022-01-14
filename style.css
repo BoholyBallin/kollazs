@@ -1,78 +1,66 @@
-﻿body{
-   
+﻿@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+h1,h2,h3,h4,h5,h6 {font-family: 'Island Moments', cursive;}
+
+body {
     margin: 0;
-    padding: 0;
+    font-family: "Lato", sans-serif;
 }
 
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
 
-.navbar {
-  display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #333;
-color: white;
- }
- .brand-title {
-   font-size: 1.5rem;
-   margin: 0.5rem;
- }
- .navbar-links ul {
-   margin: 0;
-   padding: 0;
-   display: flex;
- }
- .navbar-links li {
-   list-style: none;
- }
- .navbar-links li a {
-   text-decoration: none;
-   color: white;
-   padding: 1rem;
-   display: block;
- }
- .navbar-links li:hover {
-   background-color: #555;
- }
- .toggle-button { 
-   position: absolute;
-   top: .75rem;
-   right: 1rem;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   width: 30px;
-   height: 21px;
- }
- .toggle-button .bar {
-   height: 3px;
-   width: 100%;
-   background-color: white;
-   border-radius: 10px;
- }
- @media ( max-width:400px) {
-   .toggle-button{
-     display: flex;
-   }
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
 
- .navbar-links {
-   display: none; 
-  width: 100%;
- }
- .navbar {
-   flex-direction: column;
-   align-items: flex-start;
- }
- .navbar-links ul {
-   flex-direction: column;
-   width: 100%;
- }
- .navbar-links li {
-   text-align: center;
- }
- .navbar-links li a {
-   padding: .5rem 1rem;
- }
- .navbar-links.active {
-   display: flex;
- }
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
 }
