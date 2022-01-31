@@ -1,0 +1,32 @@
+* {
+    background-color: aqua;
+}
+.main{ 
+    background-color: black;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 100px;
+    transition: 1s;
+}
+.box2{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    transition: 1s;
+}
+.box1:hover{
+background-color: red;
+transform: scale(1.3) ;
+}
+.box2:hover{
+    background-color: red;
+transform: scale(1.3) ;
+
+}
