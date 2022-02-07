@@ -64,3 +64,57 @@ div.content {
         float: none;
     }
 }
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size: larger;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+  }
+  .main{
+    
+    width: 1600px;
+    height: 500px;
+    margin: auto;
+}
+.box{
+    margin: 75px;
+    float: left;
+    width: 250px;
+    height: 250px;
+    transition: 1s;
+}   
+.box:hover{
+    transform: scale(1.3);
+}
+
+img{
+    width: 250px;
+    height: 250px; 
+    border: 3px solid black;
+}
+button{
+    background-color:rgb(5, 226, 255);
+    border-width: 0px;
+    color: #fbff00;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color:red;
+}
+p{
+    font-family: 'Indie Flower', cursive;
+}
