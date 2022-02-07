@@ -5,6 +5,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Island Moments', cursive;}
 body {
     margin: 0;
     font-family: "Lato", sans-serif;
+    background-color: gray;
 }
 
 .sidebar {
@@ -27,7 +28,7 @@ body {
 }
 
 .sidebar a.active {
-    background-color: #04AA6D;
+    background-color: darkmagenta;
     color: white;
 }
 
