@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ez a javascript oldal.</h1>
+
+<fieldset style="width: 50%;">
+<legend>SUS</legend>
+<label for=""> add meg hány db:</label>
+<input type="number" name="szamok" id="db" value="1">
+<button onclick="localStorage.setItem('POSZTER',db.value) "> Add hozza!</button>
+
+</fieldset>
+
+    <p id="Ballin">Ennyit veszel</p>
+    <button onclick="kerr()">Katt</button>
+    
+   <script>
+   function kerr(){
+       document.getElementById("Ballin").innerHTML = localStorage.getItem("POSZTER")
+       
+   }
+   </script> 
+</body>
+</html>
