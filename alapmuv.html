@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szamologep</title>
+
+</head>
+ <script>
+        function osszeadas(elso, masodik){
+        document.getElementById("osszeadas").innerHTML = Number(elso) + Number(masodik)
+        } 
+        function kivonas(elso, masodik){
+        document.getElementById("kivonas").innerHTML = Number(elso) - Number(masodik)
+        } 
+        function szorzas(elso, masodik){
+        document.getElementById("szorzas").innerHTML = Number(elso) * Number(masodik)
+        } 
+        function osztas(elso, masodik){
+        document.getElementById("osztas").innerHTML = Number(elso) / Number(masodik)
+        } 
+    </script>
+<body>
+<input type="number" id="elso">
+<input type="number" id="masodik"><br>
+
+
+<button onclick="osszeadas(elso.value,masodik.value)">+</button><span id="osszeadas">=</span><br>
+<button onclick="kivonas(elso.value,masodik.value)">-</button><span id="kivonas">=</span><br>
+<button onclick="szorzas(elso.value,masodik.value)">*</button><span id="szorzas">=</span><br>
+<button onclick="osztas(elso.value,masodik.value)">/</button><span id="osztas">=</span><br>
+
+   
+</body>
+</html>

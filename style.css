@@ -120,19 +120,3 @@ p{
     font-family: 'Indie Flower', cursive;
 }
 
-.mezo{
-    border: 2px solid rgb(90, 10, 39);
-    width: 400px;
-    height: 40px;
-    background-color: rgb(43, 36, 36);
-    color: rgb(255, 255, 255);
-    border-radius: 8px;
-    margin: 5px;
-    transition: 0.75s;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-}
-.mezo:hover{
-    transform: scale(1.2);
-    border: 4px solid white;
-}

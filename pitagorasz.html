@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitagorasz</title>
+    <script>
+        function szamol() {
+            eredmeny.value = Math.sqrt(elso.value * elso.value + masodik.value * masodik.value)
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Pitagorasz kiszamolo</h1>
+    <img src="img/OIP.jfif" alt="">
+    <fieldset style="width: 0%;">
+        <input type="number" id="elso" placeholder="Első oldal hossza"> <br>
+        <input type="number" id="masodik" placeholder="A második oldal hossza"><br>
+        <input type="text" id="eredmeny" placeholder="eredmeny"><br>
+        <button style="margin: 20px;;" onclick="szamol()">kiszamol</button><br>
+    </fieldset>
+</body>
+
+</html>
